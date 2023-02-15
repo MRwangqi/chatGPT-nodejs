@@ -5,6 +5,11 @@
   "author": "Aiden Bai",
   "license": "MIT",
   "scripts": {
-    "start": "node server.mjs"
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "koa": "^2.14.1",
+    "koa-router": "^12.0.0",
+    "openai": "^3.1.0"
   }
 }
